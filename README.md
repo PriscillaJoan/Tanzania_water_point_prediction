@@ -6,7 +6,8 @@
 - Final workbook.ipynb: narritive documentation of analysis in jupyter notebook
 - TANZANIA WATER WELLS PREDICTIONS.pdf: pdf version of project presentation slides
   
-- | File                       | Description |
+ | File                       | Description |
+  
 |---------------------------|-------------|
 | `.env`                    | Stores PostgreSQL credentials securely |
 
