@@ -12,6 +12,7 @@
 | `automate_waterwells.py`| Python script to load, clean, validate, and insert new wells data into PostgreSQL database   |
 | `wells_data.xlsx`        | Raw input Excel file containing water well records                                           |
 | `Audit Table Creation.sql` | SQL script that creates an audit log table used to record when and what data is inserted into the database — useful for tracking data changes and ensuring accountability |
+
 | `creation.sql`           | SQL script that defines the schema for the `wells_data` table                                |
 
 
