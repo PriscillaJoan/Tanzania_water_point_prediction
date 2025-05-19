@@ -2,8 +2,10 @@
 
 ## Repository Structure
 >
+> <span style="color: blue">*Functional Need Repair*</span>
+![image](https://github.com/user-attachments/assets/1bb050a3-6cd2-4459-9485-d3753327fc76)
 
- -  > <span style="color: blue">*data folder*</span>
+ > <span style="color: blue">*data folder*</span>
     Contains original and cleaned training and testing datasets, along with predicted well functionality results.
 
 
