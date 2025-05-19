@@ -2,9 +2,14 @@
 
 ## Repository Structure
 >
+- data folder: contains original and cleaned training and testing data and also the predicted functionality of wells
 - Final workbook.ipynb: Jupyter notebook containing the whole workflow: Transformation,EDA,Modelling
 - TANZANIA WATER WELLS PREDICTIONS.pdf: pdf version of project presentation slides
-- 
+- Wells table creation.sql : Water wells table creation script
+- Images : 
+- pictures: Contains images used in the pdf presentation
+  
+- Water wells automation: 
   
 | File                     | Description                                                                                  |
 |--------------------------|----------------------------------------------------------------------------------------------|
