@@ -2,11 +2,19 @@
 
 ## Repository Structure
 >
-- data folder: Contains original and cleaned training and testing datasets, along with predicted well functionality results.
+
+ -  > <span style="color: blue">*data folder*</span>
+    Contains original and cleaned training and testing datasets, along with predicted well functionality results.
+
+
 - Final workbook.ipynb: Jupyter notebook containing the whole workflow: data transformation,EDA and Modelling
+  
 - TANZANIA WATER WELLS PREDICTIONS.pdf: pdf version of project presentation slides
+  
 - Wells table creation.sql : SQL script for creating the water wells table
+  
 - Images : C Contains interactive HTML visualizations generated in the notebook, showing distributions and mapping of water wells in Tanzania.
+  
 - pictures: Contains static images used in the pdf presentation
   
 - Water wells automation: 
@@ -25,7 +33,7 @@
 - Validates required fields
 - Automatically inserts cleaned data into a structured PostgreSQL table
 - Designed to be modular and run multiple times with different datasets
-- 
+  
 ## Business problem
 >
 By leveraging data driven methods, this study aims to forecast the current functional condition of Tanzanian water wells, using machine learning classification algorithms trained on historical and environmental data such as location, installation details, water quality, management structure, and construction parameters.
