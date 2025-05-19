@@ -23,8 +23,8 @@
 - 
 ## Business problem
 >
-
-This study aims to forecast the functional condition of Tanzanian water wells using machine learning classification algorithms. Functional, non-functional, and functional but in need of repair are the several status groups for classification. The idea is to increase access to water throughout Tanzania by forecasting a well's operational state.
+By leveraging data driven methods, this study aims to forecast the current functional condition of Tanzanian water wells, using machine learning classification algorithms trained on historical and environmental data such as location, installation details, water quality, management structure, and construction parameters.
+The outcome of this model has practical implications: it enables decision-makers, NGOs, and local governments to be proactive in prioritizing and improving the long term water accessibility for communities across tanzania through maintenance efforts and  allocation of resources efficiently.
 
 ## Data
 >
