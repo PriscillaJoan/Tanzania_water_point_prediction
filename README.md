@@ -1,24 +1,20 @@
 # Predicting Functional Status Of Water Wells In Tanzania
 
 ## Repository Structure
-> <span style="color: blue">*Functional Need Repair*</span>
 
- > <span style="color: blue">*data folder*</span>
+-**Data Folder**: Contains original and cleaned training and testing datasets, along with predicted well functionality results.
 
-Contains original and cleaned training and testing datasets, along with predicted well functionality results.
-
-
-- Final workbook.ipynb: Jupyter notebook containing the whole workflow: data transformation,EDA and Modelling
+- **Final workbook.ipynb**: Jupyter notebook containing the whole workflow: data transformation,EDA and Modelling
   
-- TANZANIA WATER WELLS PREDICTIONS.pdf: pdf version of project presentation slides
+- **TANZANIA WATER WELLS PREDICTIONS.pdf:** pdf version of project presentation slides
   
-- Wells table creation.sql : SQL script for creating the water wells table
+- **Wells table creation.sql:** SQL script for creating the water wells table
   
-- Images : C Contains interactive HTML visualizations generated in the notebook, showing distributions and mapping of water wells in Tanzania.
+- **Images** : C Contains interactive HTML visualizations generated in the notebook, showing distributions and mapping of water wells in Tanzania.
   
-- pictures: Contains static images used in the pdf presentation
+- **pictures**: Contains static images used in the pdf presentation
   
-- Water wells automation: 
+- **Water wells automation**: 
   
 | File                     | Description                                                                                  |
 |--------------------------|----------------------------------------------------------------------------------------------|
