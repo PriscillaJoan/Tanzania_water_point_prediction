@@ -1,16 +1,30 @@
 # Predicting Functional Status Of Water Wells In Tanzania
 
-**Author**: Joan Njoroge
-
 ## Repository Structure
 >
 - README.md: The top level README for reviewers of this project
 - Final workbook.ipynb: narritive documentation of analysis in jupyter notebook
 - TANZANIA WATER WELLS PREDICTIONS.pdf: pdf version of project presentation slides
+  
+| File                     | Description                                                                                  |
+|--------------------------|----------------------------------------------------------------------------------------------|
+| `.env`                   | Stores PostgreSQL credentials securely                                                      |
+| `automate_waterwells.py`| Python script to load, clean, validate, and insert new wells data into PostgreSQL database   |
+| `wells_data.xlsx`        | Raw input Excel file containing water well records                                           |
+| `Audit Table Creation.sql` | SQL script that creates an audit log table used to record when and what data is inserted into the database|
+| `creation.sql`| SQL script that defines the schema for the `wells_data` table|
+
+
+### Key Automation Steps:
+- Cleans and standardizes column values 
+- Validates required fields
+- Automatically inserts cleaned data into a structured PostgreSQL table
+- Designed to be modular and run multiple times with different datasets
+- 
 ## Business problem
 >
-
-This study aims to forecast the functional condition of Tanzanian water wells using machine learning classification algorithms. Functional, non-functional, and functional but in need of repair are the several status groups for classification. The idea is to increase access to water throughout Tanzania by forecasting a well's operational state.
+By leveraging data driven methods, this study aims to forecast the current functional condition of Tanzanian water wells, using machine learning classification algorithms trained on historical and environmental data such as location, installation details, water quality, management structure, and construction parameters.
+The outcome of this model has practical implications: it enables decision-makers, NGOs, and local governments to be proactive in prioritizing and improving the long term water accessibility for communities across tanzania through maintenance efforts and  allocation of resources efficiently.
 
 ## Data
 >
