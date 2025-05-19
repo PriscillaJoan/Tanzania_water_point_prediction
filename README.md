@@ -1,12 +1,23 @@
 # Predicting Functional Status Of Water Wells In Tanzania
 
-**Author**: Joan Njoroge
-
 ## Repository Structure
 >
 - README.md: The top level README for reviewers of this project
 - Final workbook.ipynb: narritive documentation of analysis in jupyter notebook
 - TANZANIA WATER WELLS PREDICTIONS.pdf: pdf version of project presentation slides
+- | File                       | Description |
+|---------------------------|-------------|
+| `.env`                    | Stores PostgreSQL credentials securely (not tracked in Git) |
+| `automate_waterwells.py`  | Python script to load, clean, validate, and insert well data into PostgreSQL |
+| `wells_data.xlsx`         | Raw input Excel file containing water well records |
+| `Audit Table Creation.sql`| SQL script to create an audit log or logging table (optional for tracking inserts) |
+| `creation.sql`            | SQL script that defines the schema for the `wells_data` table |
+
+### Key Automation Steps:
+- Cleans and standardizes column values (e.g., casing, nulls, booleans)
+- Validates required fields (like `longitude`, `latitude`, `id`)
+- Automatically inserts cleaned data into a structured PostgreSQL table
+- Designed to be modular and run multiple times with different datasets
 ## Business problem
 >
 
