@@ -23,6 +23,7 @@
 | `final_cleaned_data.xlsx`        | Raw input Excel file containing water well records                                           |
 | `Audit Table Creation.sql` | SQL script that creates an audit log table used to record when and what data is inserted into the database|
 | `creation.sql`| SQL script that defines the schema for the `wells_data` table|
+| `gadm41_TZA_2`|Contains spatial boundary data for Tanzanian administrative divisions (district/LGA level), useful for mapping and geographic filtering.|
 
 
 ### Key Automation Steps:
