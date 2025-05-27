@@ -1,4 +1,4 @@
-# Predicting Functional Status Of Water Wells In Tanzania
+# Predicting Functional Status Of Water Points In Tanzania
 
 ## Repository Structure
 
@@ -8,9 +8,9 @@
   
 - **TANZANIA WATER WELLS PREDICTIONS.pdf:** pdf version of project presentation slides.
   
-- **Wells table creation.sql:** SQL script for creating the water wells table.
+- **Wells table creation.sql:** SQL script for creating the water points table.
   
-- **Images** : Contains interactive HTML visualizations generated in the notebook, showing distributions and mapping of water wells in Tanzania.
+- **Images** : Contains interactive HTML visualizations generated in the notebook, showing distributions and mapping of water points in Tanzania.
   
 - **pictures**: Contains static images used in the pdf presentation.
   
@@ -20,9 +20,9 @@
 |--------------------------|----------------------------------------------------------------------------------------------|
 | `.env`                   | Stores PostgreSQL credentials securely                                                      |
 | `automate_waterwells.py`| Python script to load, clean, validate, and insert new wells data into PostgreSQL database   |
-| `final_cleaned_data.xlsx`        | Raw input Excel file containing water well records                                           |
+| `final_cleaned_data.xlsx`        | Raw input Excel file containing water points records                                           |
 | `Audit Table Creation.sql` | SQL script that creates an audit log table used to record when and what data is inserted into the database|
-| `creation.sql`| SQL script that defines the schema for the `wells_data` table|
+| `creation.sql`| SQL script that defines the schema for the `water_points_data` table|
 | `gadm41_TZA_2`|Contains spatial boundary data for Tanzanian administrative divisions (district/LGA level), useful for mapping and geographic filtering.|
 
 
@@ -34,7 +34,7 @@
   
 ## Business problem
 >
-By leveraging data driven methods, this study aims to forecast the current functional condition of Tanzanian water wells, using machine learning classification algorithms trained on historical and environmental data such as location, installation details, water quality, management structure, and construction parameters.
+By leveraging data driven methods, this study aims to forecast the current functional condition of Tanzanian water points, using machine learning classification algorithms trained on historical and environmental data such as location, installation details, water quality, management structure, and construction parameters.
 The outcome of this model has practical implications: it enables decision-makers, NGOs, and local governments to be proactive in prioritizing and improving the long term water accessibility for communities across tanzania through maintenance efforts and  allocation of resources efficiently.
 
 ## Data
